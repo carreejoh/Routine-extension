@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Routine Notifications</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="popupDiv">
+      <div class="header">
+        <h1 class="logo">Ro</h1>
+        <h1 class="logoNotif">Notifications</h1>
+      </div>
+
+      <div class="content">
+        <div class="loginContent">
+          <h2 class="instructionsText">
+            It seems that you haven't linked your account yet. Enter the
+            "notification code" found on your dashboard.
+          </h2>
+          <h1 id="errorMessage"></h1>
+        </div>
+        <div class="currenTask">
+          <p class="currentTaskHeader">Current Task:</p>
+          <div class="notifContentMain">
+            <div class="notifContentTitlePriority">
+              <a
+                href="https://routine-scheduler.vercel.app/"
+                class="notifTitle"
+              >
+              </a>
+              <div class="priorityDiv"></div>
+            </div>
+            <h1 class="notifDescription"></h1>
+          </div>
+        </div>
+        <p class="linkAccountHeader">Link account:</p>
+        <div class="notifCodeInputDiv">
+          <input
+            type="text"
+            name="notifCode"
+            id="notifCodeInput"
+            placeholder="abcdefg1234"
+          />
+          <button id="linkBtn" class="mainButtons">Link Account</button>
+        </div>
+        <!-- <div class="linkBtnDiv">
+          <button id="linkBtn" class="mainButtons">Link</button>
+        </div> -->
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
