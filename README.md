@@ -13,3 +13,6 @@ Google chrome is currently reviewing my extension for approval. This process sho
 ## Comments, Concerns, Bugs
 If you see any security threats, bugs, issues, etc please send me an email!
 carreejoh4637@gmail.com
+
+## Image of site and extension
+![routinewithnotifshrunk](https://github.com/carreejoh/Routine-extension/assets/122936256/1fbf2056-a931-4e2b-8ec1-47b462753a50)
